@@ -32,8 +32,6 @@ def build_heap(arr):
     for i in range(n//2 - 1, -1, -1):
         heapify(arr, i, n)
 
-
-
 def find_kth_largest_number_by_heap(arr, k):
     priority_arr = arr[:k]
     build_heap(priority_arr)
