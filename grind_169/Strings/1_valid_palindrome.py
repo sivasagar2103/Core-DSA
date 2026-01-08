@@ -11,7 +11,7 @@ def valid_palindrome(sen):
         
         while i < j and not sen[i].isalnum():
             i += 1
-        while i< j and not sen[j].isalnum():
+        while i < j and not sen[j].isalnum():
             j -= 1
         
         if sen[i].lower() != sen[j].lower():

@@ -1,0 +1,11 @@
+
+
+def merge_intervals(arr):
+    pass
+
+
+
+intervals = [[1,3],[2,6],[8,10],[15,18]]
+#Output: [[1,6],[8,10],[15,18]]
+res = merge_intervals(intervals)
+print(res)

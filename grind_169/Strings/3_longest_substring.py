@@ -5,7 +5,9 @@ Sliding Window + HashMap
 
 Intuition:
 - Use a sliding window and a hashmap to track the last seen index of each character.
-- Expanding the window when characters are unique and shrinking it when duplicates occur.
+- Expanding the window when characters are unique and shrinking 
+it when duplicates occur.
+
 Time: O(n)
 Space: O(min(n, char_set))
 
